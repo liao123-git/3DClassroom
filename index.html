@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>三年二班</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    #score {
+      position: absolute;
+      top: 5%;
+      width: 100%;
+      z-index: 10;
+      text-align: center;
+      font-size: 3rem;
+      color: #eeeeee;
+    }
+    #describe {
+      position: absolute;
+      top: 40%;
+      width: 100%;
+      z-index: 10;
+      text-align: center;
+      font-size: 2rem;
+      color: #eeeeee;
+    }
+    /*#webgl {*/
+    /*  position: absolute;*/
+    /*  width: 100%;*/
+    /*  height: 100%;*/
+    /*  overflow: hidden;*/
+    /*  background: -webkit-linear-gradient(#55f0f6, #48a0c9);*/
+    /*  background: linear-gradient(#55f0f6, #48a0c9);*/
+    /*}*/
+  </style>
+</head>
+<body>
+  <div id="webgl"></div>
+  <script src="js/lib/three.min.js"></script>
+  <script src="js/lib/OrbitControls.js"></script>
+  <script src="js/lib/FBXLoader.js"></script>
+  <script src="js/lib/inflate.min.js"></script>
+  <script src="js/lib/TweenMax.min.js"></script>
+  <script src="js/lib/stats.module.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
